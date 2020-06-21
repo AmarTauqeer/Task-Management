@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  max-width: 100%;
+  padding: 16px;
+  border-radius: 20px 0 20px 0;
+}
+form h3 {
+  width: 100%;
+  font-family: helvetica;
+  text-align: center;
+  margin: 0 0 16px;
+  font-weight: 400;
+}
+form input {
+  margin-bottom: 8px;
+  height: 30px;
+  padding: 0 8px;
+  max-width: 100%;
+}
+
+input.fill {
+  flex: 1 0 auto;
+}
+
+input[type="submit"] {
+  color: white;
+  background: brown;
+  border: 0;
+}
+.strike-through {
+  text-decoration: line-through;
+}
